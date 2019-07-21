@@ -1,0 +1,117 @@
+/*FEED*/
+
+.feed{
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
+/*UP*/
+
+.popular-artist{
+    flex-shrink: 0;
+    padding-top: 20px;
+    padding-left: 5%;
+    height:  350px;
+    background-color: #27e5bd;
+}
+
+
+/*search bar and profile*/
+
+.head-search-and-profile{
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.search{
+    background-color: #64ead2;
+    border-radius: 15px;
+    width: 35%;
+    height: 30px;
+    align-items: center;
+}
+
+.search-logo,.search-bar{
+    margin-left: 15px;
+}
+
+
+/*info*/
+.hotest-moment{
+    margin-top: 40px;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.title-phrase{
+    height: 100px;
+}
+
+.front-panel-desc{
+    flex-shrink: 0;
+    height: 30px;
+    margin: 20px  0px;
+}
+
+
+/*rigth*/
+.scroll-hotest{
+    align-items: center;
+    justify-content: center;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    margin-bottom: 6px;
+}
+
+.dot--selected{
+    background-color: white;
+}
+
+
+/*DOWN*/
+
+.music-recomendations{
+    padding: 0 5%;
+}
+
+.title{
+    width: 100%;
+    height: 20px;
+    margin: 25px auto;
+}
+
+.song-cards{
+    flex-wrap: wrap;
+}
+
+.song-card{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    flex: 0 0 auto;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.song-description{
+    width: 160px;
+}
+
+.song-card__big{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.song-card__big--rounded{
+    border-radius: 15%;
+}
+

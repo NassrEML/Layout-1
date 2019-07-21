@@ -1,0 +1,21 @@
+/*FOOTER*/
+
+.left-display{
+    background-color: #fefefe;
+}
+
+.middle-display, .right-display{
+    background-color: #fefefef8;
+}
+
+.d-btn{
+    flex-basis: 14%;
+}
+
+.duration-bar{
+    flex-basis: 100%;
+}
+
+.btn--d{
+    margin-left: 10px;
+}

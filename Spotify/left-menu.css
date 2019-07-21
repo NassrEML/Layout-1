@@ -1,0 +1,48 @@
+/*LEFT SIDE*/
+
+aside{
+    background-color: #013e5c;
+    flex-shrink: 0;
+    padding-top: 20px;
+}
+
+.logo{
+    padding-bottom: 22px; 
+}
+
+.logo-image{
+    flex-basis: 30%;
+    background-color:blue;
+}
+
+.logo-text{
+    flex-basis: 70%;
+    background-color:yellow;
+}
+
+div.header-of-list{
+    flex-grow: 1;
+    max-height: 30px;
+    color:#7898a9;
+    font-weight: bolder;
+    margin: 1px;
+    font-family: Arial;
+}
+
+div.row-of-list{
+    flex-grow: 1;
+    max-height: 30px;
+    color:#7898a9;
+    display: flex;
+    margin: 1px;
+    font-family: Arial;
+}
+
+.image-of-row{
+    margin-left: 20px;
+}
+
+.text-of-row{
+    margin-left: 10px;
+}
+
