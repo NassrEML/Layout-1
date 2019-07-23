@@ -21,23 +21,17 @@ aside{
     width: 20px;
 }
 
-.nav__list {
-    margin-bottom: 5%;
-}
-
-
-.row-of-list{
-    color:#7898a9;
-    display: flex;
-}
-
-
 .image-of-row{
     margin-left: 10px;
 }
 
-.text-of-row{
+.row-of-list{
+    color:#7898a9;
+    display: flex;
     margin-top: 10px;
+}
+
+.text-of-row{
     margin-left: 10px;
     height: 20px;
     width: 140px;
