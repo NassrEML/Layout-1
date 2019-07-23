@@ -1,7 +1,6 @@
 /*FEED*/
 
 .feed{
-    flex-shrink: 0;
     overflow-y: auto;
 }
 
@@ -9,9 +8,7 @@
 
 .popular-artist{
     flex-shrink: 0;
-    padding-top: 20px;
-    padding-left: 5%;
-    height:  350px;
+    height:  50%;
     background-color: #27e5bd;
 }
 
@@ -37,20 +34,26 @@
 
 
 /*info*/
+
+.most-famous-celebrity{
+    justify-content: space-between;
+}
+
 .hotest-moment{
-    margin-top: 40px;
+    padding: 5% 0;
+    height: 90%;
     flex-shrink: 0;
     justify-content: space-between;
 }
 
 .title-phrase{
-    height: 100px;
+    height: 50%;
 }
 
 .front-panel-desc{
     flex-shrink: 0;
-    height: 30px;
-    margin: 20px  0px;
+    height: 20%;
+    
 }
 
 
@@ -73,10 +76,6 @@
 
 
 /*DOWN*/
-
-.music-recomendations{
-    padding: 0 5%;
-}
 
 .title{
     width: 100%;
@@ -105,8 +104,8 @@
 }
 
 .song-card__big{
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 130px;
     margin-bottom: 20px;
     margin-right: 20px;
 }

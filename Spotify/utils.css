@@ -13,6 +13,11 @@ body {
     margin: 0;
 }
 
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
 /*STANDARS*/
 
 .d--flex{display: flex;}
@@ -39,7 +44,10 @@ body {
 
 .flex--col{flex-direction: column;}
 
-.flex--center{justify-content: center;}
+
+.flex--content-center{justify-content: center}
+
+.flex--items-center{align-items: center}
 
 .green{background-color: green;}
 
@@ -51,38 +59,34 @@ body {
 
 .black{background-color: black;}
 
-.padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
-}
+.padding-left{padding-left: 40px;}
 
-.padding-top{
-    padding-top: 32px;
-}
+.padding-left-x2{padding-left: 80px;}
 
-.padding--15{
-    padding: 15px;
-}
+.padding--top{padding-top: 40px;}
 
-.round-50{
-    border-radius: 50%;
-}
+.padding--right{padding-right: 40px;}
 
-.round-25px{
-    border-radius: 25px;
-}
+.round-50{border-radius: 50%;}
+
+.round-25px{border-radius: 25px;}
+
+.no-margin{margin: 0;}
 
 p{
     margin: 0;
     color: white;
 }
 
+.wrapper{
+    height: 100vh;
+    overflow: hidden;
+}
+
 main{
-    height: 91vh;
+    height: 92%;
 }
 
 footer{
-    height: 9vh;
+    height: 8%;
 }

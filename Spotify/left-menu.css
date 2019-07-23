@@ -2,47 +2,44 @@
 
 aside{
     background-color: #013e5c;
-    flex-shrink: 0;
-    padding-top: 20px;
 }
+
 
 .logo{
-    padding-bottom: 22px; 
-}
-
-.logo-image{
-    flex-basis: 30%;
+    height: 30px;
+    margin-bottom: 25%;
     background-color:blue;
 }
 
-.logo-text{
-    flex-basis: 70%;
-    background-color:yellow;
+.btn--small{
+    height: 30px;
+    width: 30px;
 }
 
-div.header-of-list{
-    flex-grow: 1;
-    max-height: 30px;
-    color:#7898a9;
-    font-weight: bolder;
-    margin: 1px;
-    font-family: Arial;
+.btn--smallest{
+    height: 20px;
+    width: 20px;
 }
 
-div.row-of-list{
-    flex-grow: 1;
-    max-height: 30px;
+.nav__list {
+    margin-bottom: 5%;
+}
+
+
+.row-of-list{
     color:#7898a9;
     display: flex;
-    margin: 1px;
-    font-family: Arial;
 }
 
+
 .image-of-row{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .text-of-row{
+    margin-top: 10px;
     margin-left: 10px;
+    height: 20px;
+    width: 140px;
 }
 

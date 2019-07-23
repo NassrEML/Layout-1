@@ -16,6 +16,10 @@
     flex-basis: 100%;
 }
 
+.bar{
+    width: 70%;
+}
+
 .btn--d{
-    margin-left: 10px;
+    margin-right: 10px;
 }
