@@ -1,3 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25.376" height="22.25" viewBox="0 0 25.376 22.25">
-  <path id="loop" d="M25,20.062c0,.667-.333.938-1,.938H8V17.812L3.312,22.5l4.625,4.625L8,24H26a2,2,0,0,0,2-2V13.4l-3,3ZM7,11.938C7,11.271,7.333,11,8,11H24v3.188L28.688,9.5,24.063,4.875,24,8H6a2,2,0,0,0-2,2v8.6l3-3Z" transform="translate(-3.312 -4.875)" fill="#444"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="25.376"
+   height="22.25"
+   viewBox="0 0 25.376 22.25"
+   version="1.1"
+   id="svg5229"
+   sodipodi:docname="loop.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata5235">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5233" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="716"
+     inkscape:window-height="480"
+     id="namedview5231"
+     showgrid="false"
+     inkscape:zoom="10.606742"
+     inkscape:cx="12.688"
+     inkscape:cy="11.125"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5229" />
+  <path
+     id="loop"
+     d="M25,20.062c0,.667-.333.938-1,.938H8V17.812L3.312,22.5l4.625,4.625L8,24H26a2,2,0,0,0,2-2V13.4l-3,3ZM7,11.938C7,11.271,7.333,11,8,11H24v3.188L28.688,9.5,24.063,4.875,24,8H6a2,2,0,0,0-2,2v8.6l3-3Z"
+     transform="translate(-3.312 -4.875)"
+     fill="#444"
+     style="fill:#979ca8;fill-opacity:1" />
 </svg>

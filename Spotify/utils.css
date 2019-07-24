@@ -44,7 +44,6 @@ html,body{
 
 .flex--col{flex-direction: column;}
 
-
 .flex--content-center{justify-content: center}
 
 .flex--items-center{align-items: center}
@@ -73,20 +72,35 @@ html,body{
 
 .no-margin{margin: 0;}
 
+body{
+    /*background-color: rgb(218, 218, 218);*/
+    background-color: #f2f2f2;
+}
+
 .icon{
     width: 13px;
     height: 13px;
 }
 
+
 .cover{
     max-width: 100%;
     max-height: 100%;
+    width: inherit;
+    height: inherit;
     border-radius: inherit;
 }
 
+.round-2px{border-radius: 2px;}
 p{
     margin: 0;
-    color: white;
+    color: #979ca8;
+}
+
+h3{
+    margin: 0;
+    height: 20px;
+    width: 180px;
 }
 
 .wrapper{
