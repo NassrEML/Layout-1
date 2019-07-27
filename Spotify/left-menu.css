@@ -4,11 +4,15 @@ aside{
     background-color: #013e5c;
 }
 
-
 .logo{
     height: 30px;
-    margin-bottom: 25%;
-    background-color:blue;
+    margin-bottom: 30px;
+}
+
+.logo > img{
+    height: 100%;
+    width: 200px;
+    padding-right: 100px;
 }
 
 .btn--small{
@@ -21,19 +25,34 @@ aside{
     width: 20px;
 }
 
+.nav__list{
+    margin-bottom: 20px;
+}
+
+.row-of-list{
+    display: flex;
+    margin-top: 5px;
+}
+
 .image-of-row{
     margin-left: 10px;
 }
 
-.row-of-list{
-    color:#7898a9;
-    display: flex;
-    margin-top: 10px;
-}
-
 .text-of-row{
+    display: flex;
+    align-items: center;
     margin-left: 10px;
     height: 20px;
-    width: 140px;
+    width: 160px;
+}
+
+.head-list{
+    color:#caedff;
+    font-weight: bolder;
+}
+
+.content-list{
+    color:#caedff;
+    font-weight: lighter;
 }
 

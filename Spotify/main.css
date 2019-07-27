@@ -12,6 +12,15 @@
     background-color: #27e5bd;
 }
 
+.title-phrase > span{
+    color: white;
+    font-size: 45px;
+}
+
+.front-panel-desc > span{
+    color: white;
+    font-size: 15px;
+}
 
 /*search bar and profile*/
 
@@ -36,26 +45,13 @@
 /*info*/
 
 .most-famous-celebrity{
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .hotest-moment{
-    padding: 5% 0;
-    height: 90%;
-    flex-shrink: 0;
+    flex-basis: 80%;
     justify-content: space-between;
 }
-
-.title-phrase{
-    height: 50%;
-}
-
-.front-panel-desc{
-    flex-shrink: 0;
-    height: 20%;
-    
-}
-
 
 /*rigth*/
 .scroll-hotest{
@@ -120,5 +116,11 @@
 
 .song-card__big--rounded{
     border-radius: 15%;
+}
+
+.title > span{
+    font-weight: bolder;
+    color: black;
+    font-size: 17px;
 }
 
