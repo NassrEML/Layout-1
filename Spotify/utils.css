@@ -59,11 +59,13 @@ html,body{
 
 .black{background-color: black;}
 
+.white{background-color: white;}
+
 .padding-left{padding-left: 40px;}
 
 .padding-left-x2{padding-left: 80px;}
 
-.padding--top{padding-top: 40px;}
+.padding--top{padding-top: 20px;}
 
 .padding--right{padding-right: 40px;}
 

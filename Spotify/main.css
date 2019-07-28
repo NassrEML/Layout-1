@@ -8,9 +8,13 @@
 
 .popular-artist{
     flex-shrink: 0;
-    height:  50%;
-    background-color: #27e5bd;
+    height: 50%;
+    background-color: #27e5bd; /* For browsers that do not support gradients */
+    background-image: url(resources/dr_dre.png), linear-gradient(45deg, #27e5bd , #b3ffff);
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
+    
 
 .title-phrase > span{
     color: white;
@@ -122,5 +126,19 @@
     font-weight: bolder;
     color: black;
     font-size: 17px;
+}
+
+.play-now{
+    width: 140px;
+}
+
+.play-now > span{
+    font-weight: bolder;
+    color:#27e5bd;
+    font-size: 17px;
+}
+
+.like, .share-music{
+    border: 1px solid white;
 }
 
